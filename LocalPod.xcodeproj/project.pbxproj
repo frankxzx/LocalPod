@@ -14,6 +14,7 @@
 		01FD1F5C1D426323000453C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FD1F5A1D426323000453C0 /* LaunchScreen.storyboard */; };
 		01FD1F671D426323000453C0 /* LocalPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD1F661D426323000453C0 /* LocalPodTests.swift */; };
 		01FD1F721D426323000453C0 /* LocalPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD1F711D426323000453C0 /* LocalPodUITests.swift */; };
+		01FD1F811D4264EA000453C0 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD1F801D4264EA000453C0 /* HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		01FD1F6D1D426323000453C0 /* LocalPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FD1F711D426323000453C0 /* LocalPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPodUITests.swift; sourceTree = "<group>"; };
 		01FD1F731D426323000453C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FD1F801D4264EA000453C0 /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		01FD1F451D426323000453C0 = {
 			isa = PBXGroup;
 			children = (
+				01FD1F7F1D4264D9000453C0 /* Core */,
 				01FD1F501D426323000453C0 /* LocalPod */,
 				01FD1F651D426323000453C0 /* LocalPodTests */,
 				01FD1F701D426323000453C0 /* LocalPodUITests */,
@@ -123,6 +126,14 @@
 				01FD1F731D426323000453C0 /* Info.plist */,
 			);
 			path = LocalPodUITests;
+			sourceTree = "<group>";
+		};
+		01FD1F7F1D4264D9000453C0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				01FD1F801D4264EA000453C0 /* HelloWorld.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01FD1F541D426323000453C0 /* ViewController.swift in Sources */,
+				01FD1F811D4264EA000453C0 /* HelloWorld.swift in Sources */,
 				01FD1F521D426323000453C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
