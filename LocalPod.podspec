@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'LocalPod'
   s.version      = '1.0'
-  s.license      = 'MIT'
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     = 'www.weibo.com/frankxzx'
   s.authors      = 'Frankxzx': 'frankxzx@hotmail.com'
   s.summary      = 'local pod test'
